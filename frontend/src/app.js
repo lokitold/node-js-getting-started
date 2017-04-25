@@ -4,7 +4,7 @@ import {Link, Router, Route, browserHistory} from 'react-router';
 import ListaRepos from './components/lista-repos';
 import ListaMensajesCommit from './components/lista-mensajes-commit';
 
-const Logo = () => <div className="logo col-sm-04"><Link to="/"><img src="public/images/logo.png" /></Link></div> 
+const Logo = () => <div className="logo col-sm-04"><Link to="/"><img src="images/logo.png" /></Link></div>
 
 class App extends React.Component {
     constructor(props) {
