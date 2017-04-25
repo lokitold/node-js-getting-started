@@ -7,7 +7,7 @@
   },
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "webpack-dev-server --inline --hot"
   },
   "dependencies": {
     "ejs": "2.5.6",
